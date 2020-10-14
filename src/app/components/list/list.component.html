@@ -1,5 +1,5 @@
 <h1>Reddit Aww posts</h1>
 
-<div *ngFor="let x of postinfo.data.children">
+<div *ngFor="let x of postinfo.data.children"> <!--<div *ngFor="let x of postinfo?.data.children">-->
     <app-result [post]="x"></app-result>
 </div>
