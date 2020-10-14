@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { PostInfo, Children, Child, PostData } from '../../interfaces/post-info';
+import { Child } from '../../interfaces/post-info';
 import { DataRequestService } from '../../services/data-request.service';
 
 @Component({
